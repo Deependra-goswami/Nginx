@@ -139,5 +139,4 @@ resource "aws_security_group" "webtraffic" {
 output "EIP" {
     value = aws_eip.elasticeip.public_ip
 }
-
-
+#test
