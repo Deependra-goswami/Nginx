@@ -31,6 +31,7 @@ This NGINX is getting served from the NGINX container running in EC2.
 8 - Need more clarity on what needs to be done in 8.B
 9 - Done, 
 10 - The Webserver is public facing, it can be made private by using reverse proxy/load-balancer. Cloud security services like WAF, AWS shield can be used to restrict and analyze potential threats. Remote access should be bounded to restricted IPs and should not be open to public. 
+#Testing
 
 ===========
 
